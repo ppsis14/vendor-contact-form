@@ -1,0 +1,116 @@
+body {
+    background: url(gradient-purple-blue-linear-1920x1080-c2-9400d3-00ced1-a-345-f-14.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    margin: 0px auto;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.title-form {
+    margin: 0px auto;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    margin: 0px auto;
+    padding: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    /* background-color: rgba(52, 73, 94, 0.5); */
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.container-file{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
+
+.select-choice{
+    display: block;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-box {
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgba(21, 67, 96, 0.5);
+    border-radius: 15px;
+}
+
+label {
+    color: white;
+}
+
+form {
+    color: white;
+    margin: 0 auto;
+    width: 60%;
+}
+
+form.form-inline {
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.img-vendor {
+    color: white;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.order-table-box {
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgba(21, 67, 96, 0.5);
+    border-radius: 15px;
+}
+
+.notify-order-box {
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgba(21, 67, 96, 0.5);
+    border-radius: 15px;
+}
+
+.report-box {
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+}
+.error-msg{
+    color: rgb(0, 217, 255);
+    font-size: 0.8em;
+}
+
+.card {
+    width: 80%;
+}
+
