@@ -93,7 +93,7 @@ include 'validationForm.php'
                     <hr>
                     <div class="form-group">
                         <label for="inputSubject">* Subject</label>
-                        <input type="text" class="form-control" id="inputSubject" name="subject" placeholder="Fill Some Subject" value="<?php $subject = $selected; echo $subject; ?>">
+                        <input type="text" class="form-control" id="inputSubject" name="subject" placeholder="Fill Some Subject" value="<?php echo $subject; ?>">
                         <span class="error-msg"><?php echo $subjectErr; ?></span>  
                     </div>
                     <div class="form-group">
