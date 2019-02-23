@@ -1,7 +1,4 @@
 <?php
-// define variables and set to empty values
-// $compNameErr = $saleNameErr = $emailErr = $phoneNumErr = $compAddressErr = $subjectErr = $messageErr = "";
-// $compName = $saleName = $email = $phoneNum = $compAddress = $subject = $message = "";
 
 if (isset($_POST['submit'])){
     if (empty($_POST["compName"])) {

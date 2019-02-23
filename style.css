@@ -42,10 +42,12 @@ body {
     align-items: flex-end;
 }
 
-.select-choice{
+.radio-check{
     display: block;
     flex-flow: row wrap;
     align-items: center;
+    background-color: rgba(21, 67, 96, 0.5);
+    border-radius: 15px;
 }
 
 .form-box {
